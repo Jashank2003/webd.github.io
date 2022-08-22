@@ -1,0 +1,124 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    color:white;
+    margin:0px;
+    padding:0px;
+    background:url('gymeeno.jpg');
+}
+
+.left{
+    position:absolute;
+    left:50px;
+    top:30px;
+    display:inline-block;
+
+/* border:2px solid red; */
+
+
+}
+.left img{
+    width:60px;
+    filter:invert(100%);
+}
+.left h3{
+    position:absolute;
+    top:34px;
+    left:-15px;
+      font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+.mid{
+ /* font-family: 'Baloo Bhai 2', cursive; */
+    display : block;
+    width:37%;
+    margin: 10px auto;
+    border:2px solid green;
+    
+}
+.right{ 
+    position:absolute;
+    right:24px;
+    top: 34px;
+     display: inline-block;
+    /* border:2px solid yellow; */
+
+
+}
+.navbar{
+    display:inline-block;
+
+    
+}
+.navbar li{
+    display:inline-block;
+    font-size:20px;
+    
+}
+.navbar li a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding:34px 23px;
+}
+.navbar a:hover{
+    color:grey;
+    text-decoration: underline;
+
+}
+.btn{
+    margin:0px 6px;
+    background-color: black;
+    color:white;
+    border: 2px solid grey;
+    padding:2px 8px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.container{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    background-color: rgba(17, 16, 16, 0.445);
+    margin: 163px 853px;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    width: 34%;
+    padding:2px 0px;
+text-align: center;
+}
+ 
+.formgroup input{
+    display:block;
+    text-align: center;
+    font-weight: bold;
+    width:280px;
+    border-radius: 10px;
+    padding:34px auto;
+    margin: 9px auto;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.submit{
+    border-radius:10px;
+    display: block;
+    width:290px;
+    font-size:18px ;
+    margin: 13px auto;
+
+}
+.submit:hover{
+    color:white;
+    background-color: rgb(43, 43, 43);
+
+}
+ .quote{
+    /* border: 3px solid red; */
+    display:block;
+    width:30%;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 30px;
+    color:rgb(151, 151, 151);
+    margin:0px 56px;
+
+ }
